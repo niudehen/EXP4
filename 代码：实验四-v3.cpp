@@ -31,7 +31,7 @@ void moveOperand(float *p,float *end)
 }
 int main()
 {
-	printf("请输入一个式子，包含+ - * /\n");
+	printf("璇疯緭鍏ヤ竴涓紡瀛愶紝鍖呭惈+ - * /\n");
 	char strEXP[100];
 	scanf("%s",strEXP);
 	char operators[100]={'\0'};
@@ -116,7 +116,7 @@ int main()
 			poperand++;
 		}
 	}
-	printf("答案为：%0.2f\n",operands[0]);
+	printf("绛旀涓猴細%0.2f\n",operands[0]);
 	return 0;
 }
 
